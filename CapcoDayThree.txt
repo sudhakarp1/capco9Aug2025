@@ -1,0 +1,58 @@
+Object Oriented Programming Concepts
+-------------------------------------
+	C with Classes
+	--------------
+	
+	Abstraction
+	Encapsulation 
+		__var #private
+		__fun() #private
+		_varOne; #protected
+		_funOne(); #protected
+
+	Inheritance:
+		class Derived(Base):
+			pass 
+
+	Polymorphism
+		Overriding (redefining the same function in derived/sub/child) class.
+		
+	
+	class Name:
+		Data
+		functions
+	
+		
+	__methods__ --> dunder methods are special methods(used inside the class)
+
+	Python provides plenty of these(dunder) methods which are also called as magic methods.
+
+	def __eq__(self, op):
+		pass 
+	
+	The above defined operator works as an overloaded operator == 
+
+	Similarly when we define __str__(self): then it represents as string 	
+	
+	
+-------------------------------------	
+Packages:
+---------
+	numpy
+		specifically meant for dealing with arrays
+		
+		
+	pandas
+		import pandas as pd 
+		
+	var = 	pd.Series([]) #1 dimensional data 
+	df =pd.DataFrame([[],[]]) # 2 Dimensional data 
+			which consists of row and col 
+			
+			
+		
+		
+		matplotlib
+		
+		sql
+-------------------------------------
