@@ -1,0 +1,316 @@
+Day 1:
+------
+	Python Programming:
+	-------------------
+		Data types:
+		-----------
+		
+			int --> 
+			float =
+			string
+			bool --> True , False (0)
+			
+			
+			var = 10
+			var = 10234.345
+			var = 'some string here' #!/usr/bin/python
+			String in Python can be represented in
+			'single Quote'
+			"Double Quote"
+			''' Triple 
+				You can have multi-line strings
+			Quote''' --> 
+			""" Triple Quote""" 
+			
+			'Hello "Sudhakar"'
+			
+			
+	void fun()
+	{
+		if cond	
+		{
+			
+		}
+	}	
+
+	Tab: --> Indentation
+	Outer part:
+	    inner part 
+	    inner part
+		if cond:
+			innermost level 
+	Outer part 
+	
+
+	Operators:
+	----------
+		Arithmetic: +, -, *, /, //(Integral), %, **(power)
+
+		Relational:
+			<, > , <=, >=, ==, !=
+			
+		Logical:
+			and, or, not
+			
+		Bitwise:
+			&, |, ~, ^, <<, >>
+		
+		Conditional:
+			'True part' if cond else 'False part'
+
+		Membership:
+			is , in 
+==============================================
+Control Structures:
+--------------------
+	3 statements we use in any programming logic
+		1. Sequential statements
+		2. conditional / Branching statements
+		3. Looping/ Iterative statements
+	
+
+if cond:
+	True part 
+	statements to be executed here 
+else:
+	False part 
+	statements to be executed here 
+
+if cond:
+	true part 
+elif cond:
+	true condition for second part
+elif cond:
+	true condition for Third part
+else:
+	false part for the above condition 
+	
+Take a number:
+var = number here 
+or 
+var = int(input('Input a number: '))
+		proper suffix for the given number:
+
+		
+		
+	1 --> 1st 
+	2 --> 2nd 
+	3 --> 3rd
+	10 --> 10th
+	11 --> 11th 
+	22 --> 22nd
+	
+any statement here is outside your condition. 
+
+Looping / Iterative Statements:
+-------------------------------
+	for var in Collection:
+		statements here 
+		
+	for var in 1,2,3,4,5,6,7,8,9,10:
+		print(v		
+ar)
+	for var in 'Some strings here':
+		print(var)
+		
+	
+Traditional loop syntax is supported using while:		
+	initialization
+	condition checking
+	increment/decrement 
+
+	break --> to quit the current loop 
+	continue --> to skip the current iteration 
+	pass --> Perform nothing(empty block)
+		for 
+			pass  (: --> in Bash)
+	else --> if iteration fails 
+
+Numbers:
+	We users look from integer(Whole number) and float(numbers with decimal values)
+	
+	In Python: 
+		Numbers can be represented in different base values 
+		
+		base 2: --> Binary numbers (0 or 1)
+			0 --> 0 , 1 --> 1, 	2 --> 10
+			0, 1, 10, 11, 100, 101, 110, 111, 
+		
+		base 8: --> Octal numbers (0-7)
+			0, 1, 2, 3, 4, 5, 6, 7, 10, 11, 
+		
+		base 10: --> Decimal numbers 
+		
+		Base 16: --> Hexa Decimal (0 - F)
+			0 ,1, 2, 3, 4, 5, 6, 7, 8 ,9, A, B, C, D, E, F, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 1A, 1B, 1C, 1D, 1E, 1F, 20, 21
+			
+		num = 100
+		num = 0b100 
+		num = 0o100
+		num = 0x100
+		
+		
+		Octal :1 0 0
+		In Binary: 001 000 000
+		In Hexa: 0100 0000 --> 4 0
+		
+		
+
+	num = '100abc'
+			
+	int(num) --> Throw ValueError
+	
+	int(num, 16) --> Hexa value 
+			
+=============================================
+IO --> Input output functions in Python:
+----------------------------------------
+	input('Prompt string ') --> returns a string 
+	
+	int(str)
+	float(string)
+	
+	myString = '1234'
+	
+	int(myString) --> 
+	ASCII --> 
+		'0' --> 48
+		'1' --> 49
+		.
+		.
+		.
+		'9' --> 57
+		'A' --> 65 ... 90
+		'a' --> 97 ... 122
+
+	myString = '1234'
+	
+	int(myString) --> 
+		
+	one char at a time from myString:
+	rem = 0	  
+	rem  * Base(10)  + dig
+	
+'1' - '0' --> 49 - 48 --> 1(dig) --> 0 * Base + 1 --> 1 
+'2' - '0' --> 2(dig) --> 	1 * Base(10) + 	2 --> 12
+'3' - '0' --> 3(dig) --> 12 * Base(10) + 3 --> 123
+'4' - '0' --> 4(dig) --> 123 * Base(10) + 4 --> 1234
+
+	num = int(input('Enter a num: '))
+	num = float(input('Enter a num in float: '))
+	
+===================================================
+Output:
+-------
+	print('string with format specifier' % variables)
+	
+	What are format specifiers:
+	---------------------------
+	 %d or %i --> Integer
+	 %f or %e --> float 
+	 %s --> string 
+	 
+	 %numFormat --> num is width 
+	 %5d --> here 5 is width and d for integer
+	 %-5d --> here 5 is width and d for integer with left aligned 
+-------------------------------------------------
+	%10.2f --> 10 is width, 2 is precision , f is float 
+	%-10.2f --> 10 is width, 2 is precision , f is float with left aligned 
+----------------------------------------------------------
+Data structures:
+----------------
+	List  --> list() or [] 
+	Tuple --> tuple() or ()
+	Set  --> {1,2,3} or set()
+	Dictionary  --> {0:0, 1:1, 2:1, 3:2} or dict()
+
+
+lst = [100, 'Krack Jack', 23.34]
+
+tpl = (100, 'Krack Jack', 23.34)
+
+dt = {100:('Krack Jack', 23.34), 101: ('Jim Jam', 40.5)}
+
+	Key : Value 
+	
+	Key type should be immutable (Non-Modifiable)
+		
+		10 
+		'strings'
+		(tuple)
+		
+dt1 = {100:['Krack Jack', 23.34], 101: ['Jim Jam', 40.5]}
+		
+
+lst = [(100, 'Krack Jack', 23.34), (), (), ()]
+
+qty = [0, 4, 7, 2]
+
+SlNo   PId   Name Qty Price Amt   
+ 1		101   
+
+
+				Total: 
+
+
+3. 	3.2+ format strings were introduced  
+			
+	f'string with {var:20}'	
+	
+=======================================================
+Data structures:
+----------------
+	List  --> list() or [] 
+	Tuple --> tuple() or ()
+	Set  --> {1,2,3} or set()
+	Dictionary  --> {0:0, 1:1, 2:1, 3:2} or dict()
+	--------------------------------------------
+	
+lst = list(range(1,10,2))
+There are methods in list
+
+lst.append(100) # append (add at end) 
+lst.insert(pos, value)
+---------------------------------------------------
+ Method      Description  
+-------------------------
+ append(x)  Adds x at the  end 
+ insert(i, x)      Inserts x at position i
+ extend(iterable)  Adds elements from iterable
+ remove(x)         Removes first occurrence of x 
+ pop([i])          Removes and returns item at i (default: last)
+ index(x)          Returns first index of x count(x)          Returns count of  x
+ sort()          Sorts list in place
+ reverse()         Reverses list in place
+ copy()            Returns a shallow copy
+ clear()           Removes all elements
+=====================================================
+Tuple:
+------
+	()   --> 
+	tuple()  ---> 
+	Immutable:
+
+commonly used methods:
+-----------------------
+ count(x)  Counts occurrences of x  
+ index(x)  Returns first index of x 
+			
+ tpl[0] = 'Value' #assignment operator not supported
+===========================================================
+Dictionary:
+-----------
+	uses key:value pair 
+	
+	dt = {0:0, 1:1}
+	
+	
+	
+
+ 
+
+
+
+
+
+

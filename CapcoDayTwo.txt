@@ -1,0 +1,97 @@
+Dictionary:
+-----------
+	uses key:value pair 
+
+	dt = {0:0, 1:1}
+
+ get(key[, default])  Returns value or default
+ keys()               Returns view of keys
+ values()             Returns view of values
+ items()              Returns (key, value) pairs
+ update(dict2)        Updates with another dict
+ pop(key[, default])  Removes key, returns value
+ popitem()            Removes and returns last (key, value)
+ clear()              Removes all items
+ copy()               Shallow copy 
+ setdefault(k, v)     Returns value if key exists, else sets to v
+ =============================================
+ 
+ dt[key] = value ;
+
+===================================================
+1. string from the user
+
+	words --> count the words 
+
+	counter[count] = 1
+
+====================================================
+
+words = {'one': 1, 'two':2,'three':3,'four':4, 'five':5, 'six':6, 'seven':7, 'eight':8,'nine':9,'ten':10, 'eleven':11, 'twelve':12, 'thirteen':13, 'fourteen':14, 'fifteen':15, 'sixteen':16, 'seventeen':17, 'eighteen':18,'nineteen':19, 'twenty':20,'thirty':30, 'forty':40, 'fifty': 50, 'sixty':60, 'seventy':70, 'eighty':80, 'ninety':90 ,'hundred':100, 'thousand':1000, 'lakhs':100000,'crore': 10000000}
+
+string = 'fifty eight crore ninety five lakhs eighty seven thousand nine hundred and thirty five'
+ 
+Output: 589587935
+======================================================
+Module 3: Deep Dive – Functions, OOPs, Modules, Errors and Exceptions 
+	• Understand Python Standard Libraries 
+	• Packages and Module - Modules, Import Options, sys Path 
+	• Functions - Syntax, Arguments, Keyword Arguments, Return Values 
+	• Function Parameters 
+	• Global Variables 
+	• Variable Scope and Returning Values 
+	• Lambda - Features, Syntax, Options, Compared with the Functions 
+	• Sorting - Sequences, Dictionaries, Limitations of Sorting 
+	• Errors and Exceptions - Types of Issues, Remediation 
+	• Object Oriented Concepts 
+	• Modules Used in Python 
+	• The Import Statements 
+	• Module Search Path 
+	• Package Installation Ways 
+	• Errors and Exception Handling 
+	• Handling Multiple Exceptions
+---------------------------------------------------------
+Next Topic:
+----------
+Functions - Syntax, Arguments, Keyword Arguments, Return Values 
+	• Function Parameters 
+	• Global Variables 
+	• Variable Scope and Returning Values 
+	• Lambda - Features, Syntax, Options, Compared with the Functions 
+-------------------------------------------------
+Modules Used in Python 
+	• The Import Statements 
+	• Module Search Path 
+	• Package Installation Ways
+ 
+Module in Python is your python file (which can contain global data, function defintions, classes)
+	Since we have discussed only on global data and functions. I will use the same for our discussion on modules.
+	import sys 
+	
+	sys.path
+--------------------------------------------------------
+Errors and Exceptions - Types of Issues, Remediation 	
+Errors and Exception Handling 
+Handling Multiple Exceptions
+
+	BaseException
+		| --> SystemExit
+		| -->
+		| 
+		| --> Exception
+				| --> ZeroDivisionError
+				| --> ValueError
+				| --> TypeError
+				
+
+
+	int(str)
+	
+
+
+
+
+
+
+
+
